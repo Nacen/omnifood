@@ -1,0 +1,18 @@
+.nav {
+  width: 114rem;
+}
+
+.logo {
+  height: 10rem;
+}
+
+.navigation-link:link,
+.navigation-link:visited {
+  border-bottom: 2px solid transparent;
+  transition: border-bottom 0.2s;
+  padding: 8px;
+}
+.navigation-link:hover,
+.navigation-link:active {
+  border-bottom: 2px solid #e67e22;
+}
