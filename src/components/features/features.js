@@ -19,7 +19,7 @@ const Features = () => {
         </Row>
 
         <Row>
-          <Col className="box">
+          <Col className="box" md={3} s={6} xs={6}>
             <img src={infinite.ios} className="icon" alt="infinity icon" />
             <h3>Up to 365 days/year</h3>
             <p>
@@ -28,7 +28,7 @@ const Features = () => {
               more flexibly if that's your style.
             </p>
           </Col>
-          <Col className="box">
+          <Col className="box" md={3} s={6} xs={6}>
             <img src={stopwatch.ios} className="icon" alt="stopwatch icon" />
             <h3>Ready in 20 minutes</h3>
             <p>
@@ -37,7 +37,7 @@ const Features = () => {
               chefs in each town to ensure that you're 100% happy.
             </p>
           </Col>
-          <Col className="box">
+          <Col className="box" md={3} s={6} xs={6}>
             <img src={nutrition.ios} className="icon" alt="nutrition icon" />
             <h3>100% organic</h3>
             <p>
@@ -46,7 +46,7 @@ const Features = () => {
               health, the environment, and it also tastes better!
             </p>
           </Col>
-          <Col className="box">
+          <Col className="box" md={3} s={6} xs={6}>
             <img src={cart.ios} className="icon" alt="cart icon" />
             <h3>Order anything</h3>
             <p>
