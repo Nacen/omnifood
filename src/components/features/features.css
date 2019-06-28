@@ -1,0 +1,23 @@
+.icon {
+  height: 7rem;
+  width: 7rem;
+  display: block;
+  margin-bottom: 1rem;
+  color: #e67e22;
+}
+
+.paragraph {
+  line-height: 145%;
+  width: 70%;
+  margin-left: 15%;
+  font-size: 1.6rem;
+}
+
+.box {
+  padding: 1%;
+}
+
+.box p {
+  font-size: 1.6rem;
+  line-height: 145%;
+}

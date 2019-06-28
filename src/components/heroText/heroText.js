@@ -5,7 +5,7 @@ import "./heroText.css";
 const HeroText = () => {
   return (
     <section className="hero-text-box">
-      <h1 className="heading-text">
+      <h1 className="">
         Goodbye junk food.
         <br />
         Hello super healthy meals.
