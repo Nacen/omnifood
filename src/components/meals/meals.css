@@ -2,6 +2,10 @@
   padding: 0;
 }
 
+.meal-row {
+  margin: 0;
+}
+
 .meal-photo {
   margin: 0;
   overflow: hidden;

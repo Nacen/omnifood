@@ -5,7 +5,7 @@ import { meals } from "../../img/mealsImage";
 const Meals = () => {
   return (
     <section className="meals-section">
-      <Row>
+      <Row className="meal-row">
         <Col className="meal-col" xs={6} s={6} md={3} lg={3}>
           <figure className="meal-photo">
             <img
@@ -44,7 +44,7 @@ const Meals = () => {
         </Col>
       </Row>
 
-      <Row>
+      <Row className="meal-row">
         <Col className="meal-col" xs={6} s={6} md={3} lg={3}>
           <figure className="meal-photo">
             <img
