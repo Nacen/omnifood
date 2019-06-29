@@ -17,7 +17,7 @@ const Steps = () => {
             alt="Omnifood app on iPhone"
           />
         </Col>
-        <Col xs={6}>
+        <Col xs={6} className="d-flex justify-content-around flex-column ">
           <div className="steps-box">
             <div className="step-number">1</div>
             <p className="steps">

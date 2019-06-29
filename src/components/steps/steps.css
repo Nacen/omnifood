@@ -1,5 +1,6 @@
 .steps-section {
   background-color: #f4f4f4;
+  height: 80rem;
 }
 
 .steps-container {
@@ -10,8 +11,6 @@
 .steps-box {
   display: flex;
   width: 80%;
-  margin-top: 2rem;
-  margin-bottom: 4rem;
 }
 
 .step-number {
@@ -26,9 +25,6 @@
   margin-right: 25px;
 }
 
-.app-link {
-  margin-top: 8rem;
-}
 
 .steps {
   font-size: 1.8rem;
