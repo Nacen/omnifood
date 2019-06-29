@@ -1,17 +1,32 @@
-import iosCartSvg from './ios-cart.svg';
-import iosInfiniteSvg from './ios-infinite.svg';
-import iosNutritionSvg from './ios-nutrition.svg';
-import iosStopwatchSvg from './ios-stopwatch.svg';
+import iosCartSvg from "./ios-cart.svg";
+import iosInfiniteSvg from "./ios-infinite.svg";
+import iosNutritionSvg from "./ios-nutrition.svg";
+import iosStopwatchSvg from "./ios-stopwatch.svg";
+import iosPerson from "./ios-person.svg";
+import iosStar from "./ios-star.svg";
+import logoTwitter from "./logo-twitter.svg";
 
-export var cart = {
-  ios: iosCartSvg
+export const cart = {
+  icon: iosCartSvg
 };
-export var infinite = {
-  ios: iosInfiniteSvg
+export const infinite = {
+  icon: iosInfiniteSvg
 };
-export var nutrition = {
-  ios: iosNutritionSvg
+export const nutrition = {
+  icon: iosNutritionSvg
 };
-export var stopwatch = {
-  ios: iosStopwatchSvg
+export const stopwatch = {
+  icon: iosStopwatchSvg
+};
+
+export const person = {
+  icon: iosPerson
+}
+
+export const star = {
+  icon: iosStar
+};
+
+export const twitter = {
+  icon: logoTwitter
 };
