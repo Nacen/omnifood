@@ -10,14 +10,14 @@ const Steps = () => {
     <section className="steps-section">
       <h2>How it works {"\u2014"} Simple as 1, 2, 3</h2>
       <Row className="steps-container">
-        <Col xs={6} className="d-flex justify-content-end">
+        <Col xs={12} s={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
           <img
             className="app-screen"
             src={phone}
             alt="Omnifood app on iPhone"
           />
         </Col>
-        <Col xs={6} className="d-flex justify-content-around flex-column ">
+        <Col xs={12} s={6} md={6} lg={6} className="d-flex justify-content-around flex-column ">
           <div className="steps-box">
             <div className="step-number">1</div>
             <p className="steps">

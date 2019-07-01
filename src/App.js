@@ -6,6 +6,7 @@ import Meals from "./components/meals/meals";
 import Steps from "./components/steps/steps";
 import Cities from "./components/cities/cities";
 import Testimonials from "./components/testimonials/testimonials";
+import Signup from "./components/signup/signup";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
       <Steps />
       <Cities />
       <Testimonials />
+      <Signup />
     </React.Fragment>
   );
 }
