@@ -7,6 +7,7 @@ import Steps from "./components/steps/steps";
 import Cities from "./components/cities/cities";
 import Testimonials from "./components/testimonials/testimonials";
 import Signup from "./components/signup/signup";
+import ContactForm from "./components/contactForm/contactForm";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
       <Cities />
       <Testimonials />
       <Signup />
+      <ContactForm />
     </React.Fragment>
   );
 }

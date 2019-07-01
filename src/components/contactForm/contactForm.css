@@ -1,0 +1,29 @@
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+}
+
+.form-text-area {
+    font-size: 1.8rem;
+}
+
+.form-font {
+    font-size: 1.8rem;
+}
+
+.custom-checkbox label {
+    margin-left: 1.5rem;
+    position: unset;
+} 
+
+.custom-checkbox label::before, 
+.custom-checkbox label::after 
+{
+    margin-left: 1.5rem;
+    padding: 1rem;
+}
+
+
+
