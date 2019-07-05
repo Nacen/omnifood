@@ -30,7 +30,7 @@ const Cities = () => {
               </div>
               <div className="city-feature">
                 <img
-                  src={twitter.icon}
+                  src={twitter.iconOrange}
                   alt="twitter-icon"
                   className="icon-small"
                 />
@@ -60,7 +60,7 @@ const Cities = () => {
               </div>
               <div className="city-feature">
                 <img
-                  src={twitter.icon}
+                  src={twitter.iconOrange}
                   alt="twitter-icon"
                   className="icon-small"
                 />
@@ -88,7 +88,7 @@ const Cities = () => {
               </div>
               <div className="city-feature">
                 <img
-                  src={twitter.icon}
+                  src={twitter.iconOrange}
                   alt="twitter-icon"
                   className="icon-small"
                 />
@@ -114,7 +114,7 @@ const Cities = () => {
               </div>
               <div className="city-feature">
                 <img
-                  src={twitter.icon}
+                  src={twitter.iconOrange}
                   alt="twitter-icon"
                   className="icon-small"
                 />
