@@ -8,7 +8,7 @@ const CardHeading = ({ cardTitle, cardPrice, priceCaption }) => {
       <Col xs={12}>
         <h3 className="card-title">{cardTitle}</h3>
       </Col>
-      <Col xs={12}>
+      <Col xs={12} className="pr-2">
         <div className="pricing">
           ${cardPrice} <span>/ month</span>
         </div>

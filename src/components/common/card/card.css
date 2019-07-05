@@ -4,3 +4,7 @@
     margin-bottom: 4rem;
     box-shadow: 0 2px 2px #efefef;
 }
+
+.card-container {
+    margin: 0 2.5%;
+}
