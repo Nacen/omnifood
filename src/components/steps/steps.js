@@ -10,14 +10,14 @@ const Steps = () => {
     <section className="steps-section">
       <h2>How it works {"\u2014"} Simple as 1, 2, 3</h2>
       <Row className="steps-container">
-        <Col xs={12} s={6} md={6} lg={6} className="d-flex justify-content-center mb-4">
+        <Col xs={12} s={6} md={6} lg={6} className="app-col">
           <img
             className="app-screen"
             src={phone}
             alt="Omnifood app on iPhone"
           />
         </Col>
-        <Col xs={12} s={6} md={6} lg={6} className="d-flex justify-content-around flex-column ">
+        <Col xs={12} s={6} md={6} lg={6} className="steps-col">
           <div className="steps-box">
             <div className="step-number">1</div>
             <p className="steps">
@@ -38,7 +38,7 @@ const Steps = () => {
               Enjoy your meal after less than 20 minutes. See you the next time!
             </p>
           </div>
-          <div className="app-link">
+          <div className="app-links">
             <button className="app-btn">
               <img src={appStore} alt="App Store Button" />
             </button>
