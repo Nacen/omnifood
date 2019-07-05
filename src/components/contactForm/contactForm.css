@@ -1,7 +1,4 @@
 .contact-section {
-    display: flex;
-    justify-content: center;
-    align-items: center;
     font-size: 1.8rem;
 }
 
@@ -25,5 +22,17 @@
     padding: 1rem;
 }
 
+@media only screen and (min-width: 576px) {
+    .contact-section {
+        margin: 0 5%;
+    }
+}
+
+
+@media only screen and (min-width: 1024px) {
+    .contact-section {
+        margin: 0 10%;
+    }
+}
 
 

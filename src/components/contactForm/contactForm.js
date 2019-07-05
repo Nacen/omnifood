@@ -10,7 +10,7 @@ const ContactForm = () => {
       <div>
         <h2>We're happy to hear from you</h2>
         <Form>
-          <Form.Group as={Row} controlId="formName">
+          <Form.Group as={Row} controlId="formName" className="mb-3">
             <Form.Label column lg="4" md="4" sm="12">
               Name
             </Form.Label>
@@ -23,7 +23,7 @@ const ContactForm = () => {
               />
             </Col>
           </Form.Group>
-          <Form.Group as={Row} controlId="formEmail">
+          <Form.Group as={Row} controlId="formEmail" className="mb-3">
             <Form.Label column lg="4" md="4" sm="12">
               Email
             </Form.Label>
@@ -36,7 +36,7 @@ const ContactForm = () => {
               />
             </Col>
           </Form.Group>
-          <Form.Group as={Row} controlId="formQuestion">
+          <Form.Group as={Row} controlId="formQuestion" className="mb-3">
             <Form.Label column lg="4" md="4" sm="12">
               How did you find us?
             </Form.Label>
@@ -49,7 +49,7 @@ const ContactForm = () => {
               </Form.Control>
             </Col>
           </Form.Group>
-          <Form.Group as={Row} controlId="formNewsLetter">
+          <Form.Group as={Row} controlId="formNewsLetter" className="mb-3">
             <Form.Label column lg="4" md="4" sm="12">
               Newsletter?
             </Form.Label>
@@ -64,7 +64,7 @@ const ContactForm = () => {
               />
             </Col>
           </Form.Group>
-          <Form.Group as={Row} controlId="form">
+          <Form.Group as={Row} controlId="form" className="mb-3">
             <Form.Label column lg="4" md="4" sm="12">
               Drop us a line
             </Form.Label>
