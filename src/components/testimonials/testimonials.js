@@ -9,7 +9,7 @@ const Testimonials = () => {
   return (
     <section className="testimonial-section">
       <Container>
-        <h2>Our customers can't live without us</h2>
+        <h2 className="testimonial-heading">Our customers can't live without us</h2>
         <Row>
           <Col xs={12} md={4} lg={4}>
             <blockquote className="customer-testimonials">
