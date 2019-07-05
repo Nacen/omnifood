@@ -1,6 +1,6 @@
 import React from "react";
 import Card from "../common/card/card";
-import { Container, Row, Col } from "react-bootstrap";
+import { Row, Col } from "react-bootstrap";
 import "./signup.css";
 
 const Signup = () => {
@@ -26,7 +26,7 @@ const Signup = () => {
   return (
     <section className="signup-section">
       <h2>Start Eating Healthy Today</h2>
-      <Container>
+      <div className="signup-container">
         <Row>
           <Col xs={12} s={12} md={4} lg={4}>
             <Card
@@ -49,7 +49,7 @@ const Signup = () => {
             <Card title={"Starter"} price={19} details={starterDetails} />
           </Col>
         </Row>
-      </Container>
+      </div>
     </section>
   );
 };
