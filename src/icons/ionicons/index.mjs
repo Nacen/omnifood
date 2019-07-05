@@ -5,6 +5,7 @@ import iosStopwatchSvg from "./ios-stopwatch.svg";
 import iosPerson from "./ios-person.svg";
 import iosStar from "./ios-star.svg";
 import logoTwitter from "./logo-twitter.svg";
+import orangeTwitterLogo from './logo-twitter-orange.svg';
 
 export const cart = {
   icon: iosCartSvg
@@ -28,5 +29,6 @@ export const star = {
 };
 
 export const twitter = {
-  icon: logoTwitter
+  icon: logoTwitter,
+  iconOrange: orangeTwitterLogo
 };
