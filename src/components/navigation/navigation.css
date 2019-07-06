@@ -3,16 +3,39 @@
 }
 
 .logo {
-  height: 10rem;
+  height: 100px;
 }
 
-.navigation-link:link,
-.navigation-link:visited {
-  border-bottom: 2px solid transparent;
-  transition: border-bottom 0.2s;
-  padding: 8px;
+.navbar-toggler-icon {
+  font-size: 24px;
 }
-.navigation-link:hover,
-.navigation-link:active {
-  border-bottom: 2px solid #e67e22;
+
+.navbar-collapse {
+  text-align: center;
+}
+
+@media only screen and (min-width: 450px) {
+  .navbar-collapse {
+    margin-top: -80px;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .navbar-collapse {
+    margin-top: 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .navigation-link:link,
+  .navigation-link:visited {
+    border-bottom: 2px solid transparent;
+    transition: border-bottom 0.2s;
+    padding: 8px;
+  }
+  .navigation-link:hover,
+  .navigation-link:active {
+    border-bottom: 2px solid #e67e22;
+  }
+  
 }

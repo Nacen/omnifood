@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-scroll";
 import { Navbar, Nav } from "react-bootstrap";
 import "./navigation.css";
 import logo from "../../img/logo-white.png";
@@ -12,18 +13,61 @@ const Navigation = () => {
       <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav" />
       <Navbar.Collapse className="text-white" id="basic-navbar-nav">
         <Nav className="ml-auto">
-          <Nav.Link className="navigation-link text-light text-uppercase h4" href="#">
+          <Link
+            activeClass="active"
+            to="features-section"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={20}
+            duration={800}
+            isDynamic={true}
+            className="navigation-link text-light text-uppercase h3 nav-link"
+          >
             Food Delivery
-          </Nav.Link>
-          <Nav.Link className="navigation-link text-light text-uppercase h4" href="#">
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="steps-section"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={20}
+            duration={900}
+            isDynamic={true}
+            className="navigation-link text-light text-uppercase h3 nav-link"
+          >
             How it works
-          </Nav.Link>
-          <Nav.Link className="navigation-link text-light text-uppercase h4" href="#">
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="cities"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={0}
+            duration={1000}
+            isDynamic={true}
+            className="navigation-link text-light text-uppercase h3 nav-link"
+          >
             Our cities
-          </Nav.Link>
-          <Nav.Link className="navigation-link text-light text-uppercase h4" href="#">
-            Food delivered
-          </Nav.Link>
+          </Link>
+
+          <Link
+            activeClass="active"
+            to="signup-section"
+            spy={true}
+            smooth={true}
+            hashSpy={true}
+            offset={20}
+            duration={1000}
+            isDynamic={true}
+            className="navigation-link text-light text-uppercase h3 nav-link"
+          >
+            Sign Up
+          </Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
