@@ -9,20 +9,23 @@
 .paragraph {
   width: 70%;
   margin-left: 15%;
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
 }
 
 .features {
-  margin-top: 3rem;
+  text-align: center;
 }
 
-.section-features .paragraph {
+.features-section .paragraph {
   margin-bottom: 3rem;
 }
 
 .box {
   padding: 1%;
+  display: flex;
+  flex-direction: column;
+align-items: center;
 }
 
 .box p {
