@@ -7,7 +7,7 @@ import "./steps.css";
 
 const Steps = () => {
   return (
-    <section className="steps-section">
+    <section className="steps-section" id="steps">
       <h2>How it works {"\u2014"} Simple as 1, 2, 3</h2>
       <Row className="steps-container">
         <Col xs={12} s={6} md={6} lg={6} className="app-col">

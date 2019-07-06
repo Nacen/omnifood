@@ -19,7 +19,6 @@
 }
 
 .app-screen {
-  max-width: 40%;
   margin-bottom: 10px;
 }
 
@@ -132,6 +131,12 @@
   }
   .steps {
     font-size: 1.8rem;
+  }
+}
+
+@media only screen and (min-width: 800px) {
+  .app-screen {
+    max-width: 40%;
   }
 }
 
