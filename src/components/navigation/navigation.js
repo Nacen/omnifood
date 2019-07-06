@@ -43,7 +43,7 @@ const Navigation = () => {
 
           <Link
             activeClass="active"
-            to="cities"
+            to="cities-section"
             spy={true}
             smooth={true}
             hashSpy={true}
