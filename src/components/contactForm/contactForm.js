@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Form, Row, Col } from "react-bootstrap";
 import "./contactForm.css";
+import { Link } from 'react-router-dom';
 
 const ContactForm = () => {
   const [checked, handleCheck] = useState(true);
@@ -78,7 +79,7 @@ const ContactForm = () => {
             </Col>
           </Form.Group>
           <Col xs={12} className="text-center mt-4">
-            <button className="btn btn-full">Send it!</button>
+            <Link to="#" className="btn btn-full">Send it!</Link>
           </Col>
         </Form>
       </div>
