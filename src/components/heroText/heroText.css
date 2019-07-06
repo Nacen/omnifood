@@ -1,5 +1,31 @@
 .hero-text-box {
-  position: relative;
-  top: 35%;
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
 }
+
+@media only screen and (min-width: 320px) {
+  .hero-text-box {
+    left: 50%;
+    transform: translate(-50%, -10%);
+    text-align: center;
+    width: 90%;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  .hero-text-box {
+    left: unset;
+    transform: translate(0, -30%);
+    text-align: unset;
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .hero-text-box {
+    transform: translateY(-50%);
+    position: absolute;
+  }
+}
+

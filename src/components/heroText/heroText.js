@@ -1,5 +1,7 @@
 import React from "react";
-import { Link } from "react-router-dom";
+// import { Link } from "react-router-dom";
+import { Link } from "react-scroll";
+
 import "./heroText.css";
 
 const HeroText = () => {
@@ -10,10 +12,26 @@ const HeroText = () => {
         <br />
         Hello super healthy meals.
       </h1>
-      <Link to="#" className="btn btn-full">
+      <Link
+        to="meals-section"
+        spy={true}
+        smooth={true}
+        hashSpy={true}
+        duration={700}
+        isDynamic={true}
+        className="btn btn-full"
+      >
         I'm hungry
       </Link>
-      <Link to="#" className="btn btn-ghost">
+      <Link
+        to="testimonial-section"
+        spy={true}
+        smooth={true}
+        hashSpy={true}
+        duration={1000}
+        isDynamic={true}
+        className="btn btn-ghost"
+      >
         Show me more
       </Link>
     </section>

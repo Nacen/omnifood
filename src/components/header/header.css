@@ -8,4 +8,19 @@ header {
   flex-wrap: wrap;
   justify-content: center;
   background-attachment: fixed;
+  position: relative;
 }
+
+@media only screen and (min-width: 320px) {
+  header {
+    height: 110vh;
+  }
+}
+
+@media only screen and (min-width: 450px) {
+  header {
+    height: 100vh;
+  }
+}
+
+
