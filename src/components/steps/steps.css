@@ -132,6 +132,9 @@
   .steps {
     font-size: 1.8rem;
   }
+  .steps-section {
+    padding: 4.5rem;
+  }
 }
 
 @media only screen and (min-width: 800px) {

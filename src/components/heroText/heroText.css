@@ -13,19 +13,18 @@
   }
 }
 
+@media only screen and (min-width: 375px) {
+  .hero-text-box {
+    transform: translate(-50%, -25%);
+  }
+}
+
 @media only screen and (min-width: 576px) {
   .hero-text-box {
     left: unset;
     transform: translate(0, -30%);
     text-align: unset;
     width: 100%;
-  }
-}
-
-@media only screen and (min-width: 768px) {
-  .hero-text-box {
-    transform: translateY(-50%);
-    position: absolute;
   }
 }
 

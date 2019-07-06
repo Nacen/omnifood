@@ -2,6 +2,7 @@ import React from "react";
 import "./meals.css";
 import { Row, Col } from "react-bootstrap";
 import { meals } from "../../img/mealsImage";
+
 const Meals = () => {
   return (
     <section className="meals-section">

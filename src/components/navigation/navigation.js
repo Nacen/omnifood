@@ -1,28 +1,47 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { Navbar, Nav } from "react-bootstrap";
+import { Navbar, Nav, } from "react-bootstrap";
 import "./navigation.css";
-import logo from "../../img/logo-white.png";
+import logoWhite from "../../img/logo-white.png";
+import logo from "../../img/logo.png";
 
-const Navigation = () => {
+const Navigation = ({ height }) => {
+  const [scrolled, setScrolled] = useState(false);
+
+  function isScrolled() {
+    const isTop = window.scrollY < height;
+    if (!isTop) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", isScrolled);
+    return function cleanup() {
+      window.removeEventListener("scroll", isScrolled);
+    };
+  });
+
   return (
-    <Navbar className="mt-2" expand="md">
+    <Navbar className={scrolled ? "nav scrolled" : "nav"} variant={scrolled ? "light" : "dark"} expand="md">
       <Navbar.Brand>
-        <img src={logo} alt="Logo" className="logo" />
+        <img src={scrolled ? logo : logoWhite} alt="Company Logo" className={scrolled ? "logo-scrolled" : "logo"} />
       </Navbar.Brand>
-      <Navbar.Toggle className="navbar-dark" aria-controls="basic-navbar-nav" />
-      <Navbar.Collapse className="text-white" id="basic-navbar-nav">
-        <Nav className="ml-auto">
+      <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
+      <Navbar.Collapse className={scrolled ? "text-black" : "text-white"} id="basic-navbar-nav">
+        <Nav className={scrolled ? "ml-auto nav-scroll mr-2" : "ml-auto mr-2"}>
           <Link
             activeClass="active"
             to="features-section"
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={20}
+            offset={-10}
             duration={800}
             isDynamic={true}
-            className="navigation-link text-light text-uppercase h3 nav-link"
+            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
           >
             Food Delivery
           </Link>
@@ -33,10 +52,10 @@ const Navigation = () => {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={20}
+            offset={-100}
             duration={900}
             isDynamic={true}
-            className="navigation-link text-light text-uppercase h3 nav-link"
+            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
           >
             How it works
           </Link>
@@ -47,10 +66,10 @@ const Navigation = () => {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={0}
+            offset={-50}
             duration={1000}
             isDynamic={true}
-            className="navigation-link text-light text-uppercase h3 nav-link"
+            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
           >
             Our cities
           </Link>
@@ -61,10 +80,10 @@ const Navigation = () => {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={20}
+            offset={-50}
             duration={1000}
             isDynamic={true}
-            className="navigation-link text-light text-uppercase h3 nav-link"
+            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
           >
             Sign Up
           </Link>

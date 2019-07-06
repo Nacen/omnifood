@@ -46,7 +46,7 @@ h2 {
   font-size: 2.8rem;
   word-spacing: 2px;
   letter-spacing: 1px;
-  margin: 2rem 0;
+  margin: 4rem 0;
 }
 
 a {
@@ -113,10 +113,6 @@ h2::after {
   color: #ffffff !important;
 }
 
-.active {
-  border-bottom: 1px solid #cf6d17;
-}
-
 .icon-small {
   width: 30px;
   text-align: center;
@@ -144,7 +140,13 @@ h2::after {
 
 @media only screen and (min-width: 768px) {
   section {
-    padding: 2rem 0;
+    padding: 4rem 0;
+  }
+}
+
+@media only screen and (min-width: 1024px) {
+  .active {
+    border-bottom: 1px solid #cf6d17;
   }
 }
 

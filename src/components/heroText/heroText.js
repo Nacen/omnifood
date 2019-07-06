@@ -19,6 +19,7 @@ const HeroText = () => {
         hashSpy={true}
         duration={700}
         isDynamic={true}
+        offset={-60}
         className="btn btn-full"
       >
         I'm hungry

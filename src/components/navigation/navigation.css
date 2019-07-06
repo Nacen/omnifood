@@ -1,9 +1,20 @@
 .nav {
-  width: 114rem;
+  height: 120px;
 }
 
-.logo {
-  height: 100px;
+.scrolled {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 1030;
+  background-color: #fff;
+  height: 70px;
+}
+
+.logo-scrolled {
+  height: 60px;
+  margin-top: 0;
 }
 
 .navbar-toggler-icon {
@@ -14,15 +25,48 @@
   text-align: center;
 }
 
-@media only screen and (min-width: 450px) {
-  .navbar-collapse {
-    margin-top: -80px;
+.navigation-link {
+  color: #fff;
+  font-size: 1.75rem;
+  text-transform: uppercase;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .logo {
+    height: 60px;
+  }
+  .navigation-link {
+    padding: 0 1rem;
+  }
+  .navbar-brand {
+    margin-left: 1rem;
+  }
+  .nav-scroll {
+    background-color: #fff;
+  }
+  .navbar {
+    padding: 0;
+  }
+  .navigation-link{
+    margin-bottom: .5rem;
+  }
+  .navbar-toggler {
+    margin-right: 3rem;
   }
 }
 
 @media only screen and (min-width: 768px) {
   .navbar-collapse {
     margin-top: 0;
+  }
+
+  .navigation-link {
+    padding: .5rem 1rem;
+  }
+  .logo {
+    height: 100px;
+    margin-top: 40px;
   }
 }
 
@@ -37,5 +81,4 @@
   .navigation-link:active {
     border-bottom: 2px solid #e67e22;
   }
-  
 }
