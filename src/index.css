@@ -12,6 +12,7 @@ html {
   font-family: -apple-system, BlinkMacSystemFont, "Lato", "Roboto", sans-serif;
   font-size: 62.5%;
   font-weight: 300;
+  overflow-x: hidden;
 }
 
 body {
@@ -22,10 +23,6 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
-}
-
-h1 {
-  font-size: 3.2rem;
 }
 
 h1,
@@ -39,17 +36,21 @@ h1 {
   margin-top: 0;
   margin-bottom: 2rem;
   color: #fff;
-  font-size: 4.8rem;
+  font-size: 3.4rem;
   letter-spacing: 1px;
   word-spacing: 4px;
 }
 
 h2 {
   text-align: center;
-  font-size: 3.6rem;
+  font-size: 2.8rem;
   word-spacing: 2px;
   letter-spacing: 1px;
-  margin-bottom: 3rem;
+  margin: 2rem 0;
+}
+
+a {
+  cursor: pointer;
 }
 
 h3 {
@@ -66,10 +67,6 @@ h2::after {
   margin-top: 2rem;
 }
 
-section {
-  padding: 8rem 0;
-}
-
 .btn:link,
 .btn,
 .btn:visited {
@@ -80,20 +77,7 @@ section {
   padding: 1rem 3rem;
   text-decoration: none;
   transition: background-color 0.4s, border 0.4s, color 0.4s;
-}
-
-.btn-full:link,
-.btn-full,
-.btn-full:visited {
-  background-color: #e67e22;
-  color: #fff;
-  margin-right: 1rem;
-}
-
-.btn-ghost:link,
-.btn-ghost:visited {
-  border: 1px solid #e67e22;
-  color: #e67e22;
+  margin-bottom: 1rem;
 }
 
 .btn:hover,
@@ -102,6 +86,22 @@ section {
   color: #fff;
 }
 
+.btn-full:link,
+.btn-full,
+.btn-full:visited {
+  background-color: #e67e22;
+  color: #fff !important;
+  margin-right: 1rem;
+}
+
+.btn-ghost,
+.btn-ghost:link,
+.btn-ghost:visited {
+  border: 1px solid #e67e22;
+  color: #e67e22 !important;
+}
+
+.btn-full,
 .btn-full:hover,
 .btn-full:active {
   border: 1px solid #cf6d17;
@@ -110,5 +110,93 @@ section {
 .btn-ghost:hover,
 .btn-ghost:active {
   border: 1px solid #cf6d17;
-  color: #ffffff;
+  color: #ffffff !important;
+}
+
+.active {
+  border-bottom: 1px solid #cf6d17;
+}
+
+.icon-small {
+  width: 30px;
+  text-align: center;
+  margin-right: 1rem;
+}
+
+@media only screen and (min-width: 320px) {
+  .row {
+    margin: 0;
+  }
+  section {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 576px) {
+  section {
+    padding: 1rem 0;
+  }
+
+  .row {
+    margin: 15px 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  section {
+    padding: 2rem 0;
+  }
+}
+
+@media only screen and (min-width: 1367px) {
+  html {
+    font-size: 75%;
+  }
+  .icon-small {
+    width: 40px;
+    text-align: center;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1440px) {
+  html {
+    font-size: 87.5%;
+  }
+  .container {
+    max-width: 1350px;
+  }
+  .icon-small {
+    width: 45px;
+    text-align: center;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1920px) {
+  html {
+    font-size: 100%;
+  }
+  .container {
+    max-width: 1800px;
+  }
+  .icon-small {
+    width: 55px;
+    text-align: center;
+    margin-right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 2560px) {
+  html {
+    font-size: 125%;
+  }
+  .container {
+    max-width: 1800px;
+  }
+  .icon-small {
+    width: 65px;
+    text-align: center;
+    margin-right: 1rem;
+  }
 }
