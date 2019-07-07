@@ -10,6 +10,7 @@
   z-index: 1030;
   background-color: #fff;
   height: 70px;
+  width: 100vw;
 }
 
 .logo-scrolled {
