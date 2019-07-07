@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "4f2e76a6c67310a8fef1699bf9d04d64",
+    "revision": "10ebc888314834ca5e2a3cab7fe29aed",
     "url": "/omnifood/index.html"
   },
   {
@@ -8,16 +8,16 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/omnifood/static/css/2.764ccc25.chunk.css"
   },
   {
-    "revision": "fe84750347d6054dbc2b",
-    "url": "/omnifood/static/css/main.605e5094.chunk.css"
+    "revision": "8281b36578415f0eeeed",
+    "url": "/omnifood/static/css/main.1172b4de.chunk.css"
   },
   {
     "revision": "4b465d7ad2024027cab7",
     "url": "/omnifood/static/js/2.0df7db50.chunk.js"
   },
   {
-    "revision": "fe84750347d6054dbc2b",
-    "url": "/omnifood/static/js/main.674b8424.chunk.js"
+    "revision": "8281b36578415f0eeeed",
+    "url": "/omnifood/static/js/main.7224b453.chunk.js"
   },
   {
     "revision": "596000ce019b1f44383b",

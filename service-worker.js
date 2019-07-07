@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox-sw.js");
 
 importScripts(
-  "/omnifood/precache-manifest.8ebd6120fcc142dabe3a526aa978baa1.js"
+  "/omnifood/precache-manifest.af77a560ce7dfd0581cb0055241d7060.js"
 );
 
 self.addEventListener('message', (event) => {
