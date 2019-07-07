@@ -5,13 +5,15 @@ import playStore from "../../img/download-app-android.png";
 import appStore from "../../img/download-app.svg";
 import "./steps.css";
 
+// Add React Spring to animate the app screen
+
 const Steps = () => {
   return (
     <section className="steps-section" id="steps">
       <h2>How it works {"\u2014"} Simple as 1, 2, 3</h2>
       <Row className="steps-container">
         <Col xs={12} s={6} md={6} lg={6} className="app-col">
-          <img
+          <img  
             className="app-screen"
             src={phone}
             alt="Omnifood app on iPhone"
