@@ -52,7 +52,7 @@ const Navigation = ({ height }) => {
             spy={true}
             smooth={true}
             hashSpy={true}
-            offset={-100}
+            offset={-70}
             duration={900}
             isDynamic={true}
             className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
