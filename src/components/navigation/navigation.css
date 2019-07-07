@@ -70,6 +70,9 @@
     height: 100px;
     margin-top: 40px;
   }
+  .scrolled {
+    padding: 0 20px;
+  }
 }
 
 @media only screen and (min-width: 1024px) {
