@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-scroll";
-import { Navbar, Nav, } from "react-bootstrap";
+import { Navbar, Nav } from "react-bootstrap";
 import "./navigation.css";
 import logoWhite from "../../img/logo-white.png";
 import logo from "../../img/logo.png";
@@ -25,15 +25,38 @@ const Navigation = ({ height }) => {
   });
 
   return (
-    <Navbar className={scrolled ? "nav scrolled" : "nav"} variant={scrolled ? "light" : "dark"} expand="md">
+    <Navbar
+      className={scrolled ? "nav scrolled" : "nav"}
+      variant={scrolled ? "light" : "dark"}
+      expand="md"
+    >
       <Navbar.Brand>
-        <img src={scrolled ? logo : logoWhite} alt="Company Logo" className={scrolled ? "logo-scrolled" : "logo"} />
+        <Link
+          to="header"
+          spy={true}
+          smooth={true}
+          hashSpy={true}
+          duration={800}
+          isDynamic={true}
+        >
+          <img
+            src={scrolled ? logo : logoWhite}
+            alt="Company Logo"
+            className={scrolled ? "logo-scrolled" : "logo"}
+          />
+        </Link>
       </Navbar.Brand>
-      <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
-      <Navbar.Collapse className={scrolled ? "text-black" : "text-white"} id="basic-navbar-nav">
+      <Navbar.Toggle
+        aria-controls="basic-navbar-nav"
+        className="navbar-toggle"
+      />
+      <Navbar.Collapse
+        className={scrolled ? "text-black" : "text-white"}
+        id="basic-navbar-nav"
+      >
         <Nav className={scrolled ? "ml-auto nav-scroll" : "ml-auto"}>
           <Link
-            activeClass="active"
+            activeClass="active-link"
             to="features-section"
             spy={true}
             smooth={true}
@@ -41,13 +64,15 @@ const Navigation = ({ height }) => {
             offset={-10}
             duration={800}
             isDynamic={true}
-            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
+            className={
+              scrolled ? "navigation-link nav-scrolled" : "navigation-link"
+            }
           >
             Food Delivery
           </Link>
 
           <Link
-            activeClass="active"
+            activeClass="active-link"
             to="steps-section"
             spy={true}
             smooth={true}
@@ -55,13 +80,15 @@ const Navigation = ({ height }) => {
             offset={-70}
             duration={900}
             isDynamic={true}
-            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
+            className={
+              scrolled ? "navigation-link nav-scrolled" : "navigation-link"
+            }
           >
             How it works
           </Link>
 
           <Link
-            activeClass="active"
+            activeClass="active-link"
             to="cities-section"
             spy={true}
             smooth={true}
@@ -69,13 +96,15 @@ const Navigation = ({ height }) => {
             offset={-50}
             duration={1000}
             isDynamic={true}
-            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
+            className={
+              scrolled ? "navigation-link nav-scrolled" : "navigation-link"
+            }
           >
             Our cities
           </Link>
 
           <Link
-            activeClass="active"
+            activeClass="active-link"
             to="signup-section"
             spy={true}
             smooth={true}
@@ -83,7 +112,9 @@ const Navigation = ({ height }) => {
             offset={-50}
             duration={1000}
             isDynamic={true}
-            className={scrolled ? "navigation-link nav-scrolled" : "navigation-link"}
+            className={
+              scrolled ? "navigation-link nav-scrolled" : "navigation-link"
+            }
           >
             Sign Up
           </Link>
