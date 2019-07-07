@@ -31,7 +31,7 @@ const Navigation = ({ height }) => {
       </Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" className="navbar-toggle" />
       <Navbar.Collapse className={scrolled ? "text-black" : "text-white"} id="basic-navbar-nav">
-        <Nav className={scrolled ? "ml-auto nav-scroll mr-2" : "ml-auto mr-2"}>
+        <Nav className={scrolled ? "ml-auto nav-scroll" : "ml-auto"}>
           <Link
             activeClass="active"
             to="features-section"
