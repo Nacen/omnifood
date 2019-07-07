@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/omnifood/static/css/main.203af9f0.chunk.css",
+    "main.css": "/omnifood/static/css/main.605e5094.chunk.css",
     "main.js": "/omnifood/static/js/main.674b8424.chunk.js",
     "main.js.map": "/omnifood/static/js/main.674b8424.chunk.js.map",
     "runtime~main.js": "/omnifood/static/js/runtime~main.b506f9ac.js",
@@ -9,10 +9,10 @@
     "static/js/2.0df7db50.chunk.js": "/omnifood/static/js/2.0df7db50.chunk.js",
     "static/js/2.0df7db50.chunk.js.map": "/omnifood/static/js/2.0df7db50.chunk.js.map",
     "index.html": "/omnifood/index.html",
-    "precache-manifest.ba83168158f03f5aae3d32eb6953e164.js": "/omnifood/precache-manifest.ba83168158f03f5aae3d32eb6953e164.js",
+    "precache-manifest.8ebd6120fcc142dabe3a526aa978baa1.js": "/omnifood/precache-manifest.8ebd6120fcc142dabe3a526aa978baa1.js",
     "service-worker.js": "/omnifood/service-worker.js",
     "static/css/2.764ccc25.chunk.css.map": "/omnifood/static/css/2.764ccc25.chunk.css.map",
-    "static/css/main.203af9f0.chunk.css.map": "/omnifood/static/css/main.203af9f0.chunk.css.map",
+    "static/css/main.605e5094.chunk.css.map": "/omnifood/static/css/main.605e5094.chunk.css.map",
     "static/media/1.jpg": "/omnifood/static/media/1.ec4871fa.jpg",
     "static/media/2.jpg": "/omnifood/static/media/2.5d8068eb.jpg",
     "static/media/3.jpg": "/omnifood/static/media/3.b92586dc.jpg",
